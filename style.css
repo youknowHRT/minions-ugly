@@ -1,0 +1,141 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    
+}
+.minion{
+    height: 510px;
+    width: 380px;
+    background:#FEDD44;
+    margin: auto;
+    border-radius: 0 20px 20PX 0/0 15px 15PX 0;
+    position: relative;
+}
+.glassStick{
+    width: 380px;
+    height: 40px;
+    background: black;
+    position: absolute;
+    top: 160px;
+}
+.eye{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border: 25px solid black;
+    border-radius: 50%;
+    background: white;
+}
+.eye.left{
+    left:47px;
+    top:102px;
+}
+.eye.right{
+    right:33px;
+    top: 102px;
+}
+.eyeBall{
+    width: 42px;height:40px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 43px;
+    top: 40px;
+}
+.mouth{
+    width:160px;
+    height:60px;
+    background: black;
+    border-radius: 0 0 100px 100px/0 0 80px 80px;
+    position:absolute;
+    top: 306px;
+    left:114px;
+}
+.cloth{
+    width:230px;
+    height:100px;
+    background:#2D3574;
+    position: absolute;
+    top: 392px;
+    left: 75px;
+}
+.girdle{
+    width: 100px;
+    height:40px;
+    background: #2D3574;
+    top: 370px;
+    position:absolute;
+}
+.girdle.left{
+    transform: skew(40deg) rotate(40deg);
+    left: 15px;
+}
+.girdle.right{
+    transform: skew(-40deg) rotate(-40deg);
+    right: 15px;
+}
+.pants{
+    width:380px;
+    height:18px;
+    background: #2D3574;
+    top: 490px;
+    border-radius: 0 0 20px 0/0 0 15px 0;
+    position: absolute;
+}
+
+.hair{
+    width:15px;
+    height: 30px;
+    background: black;
+    position: absolute;
+    
+}
+.hair.one{
+    left: 80px;
+    top: 50px;
+    transform: rotate(-12deg)
+}
+.hair.two{
+    left: 115px;
+    top: 38px;
+    transform: rotate(-8deg)
+}
+.hair.three{
+    left: 150px;
+    top: 32px;
+    transform: rotate(-5deg)
+}
+.hair.four{
+    left: 183px;
+    top: 30px;}
+.hair.five{
+    left: 216px;
+    top: 32px;
+    transform: rotate(5deg)
+}
+.hair.six{
+    left: 251px;
+    top: 38px;
+    transform: rotate(8deg)
+}
+.hair.seven{
+    left: 286px;
+    top: 50px;
+    transform: rotate(12deg)
+}
+.pocket{
+    height:50px;
+    width: 100px;
+    border: 5px solid blue;
+    border-radius: 0 0 20px 20px/0 0 20px 20px;
+    position: absolute;
+    left: 140px;
+    top: 420px;
+}
